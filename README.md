@@ -1,4 +1,4 @@
-# WEB
+# HTML5-ERROR-PAGE-TEMPLATE
 WEB SRC
 
 This Repo contains some page designed for 
