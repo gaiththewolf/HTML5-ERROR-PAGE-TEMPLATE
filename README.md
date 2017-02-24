@@ -11,3 +11,8 @@ This Repo contains some page designed for
 # .htaccess file contains redirections
  
 > Cool design with css3, HTML5, Jquery, bootstrap and inspinia Style
+
+# Exemple
+
+![alt tag](http://img11.hostingpics.net/pics/499987403.png)
+![alt tag](http://img11.hostingpics.net/pics/721991404.png)
