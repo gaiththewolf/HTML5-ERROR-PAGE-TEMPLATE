@@ -1,0 +1,16 @@
+AddDefaultCharset UTF-8
+Options -Indexes +FollowSymLinks
+ErrorDocument 403 /ERROR/403.html
+ErrorDocument 404 /ERROR/404.html
+ErrorDocument 500 /ERROR/500.html
+ErrorDocument 503 /ERROR/503.html
+ErrorDocument 504 /ERROR/504.html
+
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ /$1.html [L]
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ /$1.php [L]
